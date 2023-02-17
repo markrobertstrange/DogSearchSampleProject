@@ -2,6 +2,9 @@ import * as alasql from 'alasql';
 const noSelection =  { label: "No Preference", value: 0, description: "" }
 const API_PATH = "localhost:3000";
 
+// For anyone who was curious - this project origionally used a Rails API. I just converted the data to JSON 
+// and added an ability to query the JSON like a database. For portability only.
+
 const filterselections = {
     searchText: '',
     searchResults: null,
