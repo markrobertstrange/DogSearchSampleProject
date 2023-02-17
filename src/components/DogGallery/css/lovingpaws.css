@@ -1,0 +1,344 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,500,600,700&display=swap");
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #fefefe;
+  font-size: 17px;
+  color: #12242e;
+  background-image: url("/src/images/lpaper.png");
+  background-repeat: repeat;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* https://dev.to/neshaz/the-ultimate-list-of-css-selectors-44jg */
+#root > div > div > a {
+
+  background-color: #6c6969;
+  color: #fff;
+  border-radius: 14px;
+  border-style: inset;
+  padding: 10px;
+}
+
+/* https://css-tricks.com/almanac/selectors/f/first-child/ */
+#root > div > div > a:first-child {
+  margin-left: 32px;
+}
+
+#root > div > div > a:hover {
+  /*margin-left: 2px;*/
+  background-color: #ddd;
+  color: #000;
+  border-radius: 14px;
+  border-style: inset;
+  padding: 10px;
+}
+
+/* https://stackoverflow.com/questions/21003535/anyway-to-prevent-the-blue-highlighting-of-elements-in-chrome-when-clicking-quic */
+.noSelect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* https://www.w3schools.com/cssref/pr_background-repeat.asp */
+#homebanner {
+    height: 125px;
+    background-image: url("/src/images/dogbanner2.png");
+    background-repeat: repeat-x;
+}
+
+.search-input {
+  border-radius: 4px;
+  border: solid;
+  border-width: 1px;
+  height: 30px;
+  width: 283px;
+  border-color: #b6b6b6;
+}
+
+#btnResetCriteria {
+  height: 37px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 8px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+ 
+#btnResetCriteria:hover {
+  background-color: #773d3d;
+  color: #fefefe;
+} 
+
+#btnDogSearch {
+  height: 37px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+#btnDogSearch:hover {
+  background-color: #306430;
+  color: #fefefe;
+  cursor: pointer;
+} 
+
+
+.doggallery {
+  position: relative;
+}
+
+.doggallery-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 210px;
+}
+
+.doggallery-pane {
+  margin-right: 32px;
+  margin-left: 32px;
+  display: none;
+  list-style-type: none;
+  align-items: center;
+}
+@media (max-width: 991px) {
+  .doggallery-pane {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+}
+
+.doggallery-pane--active {
+  display: block;
+}
+
+.doggallery-pane-content {
+  margin-bottom: 15px;
+  font-family: "Open Sans", "Trebuchet MS", sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  text-align: center;
+
+}
+@media (max-width: 991px) {
+  .doggallery-pane-content {
+    font-size: 18px;
+  }
+}
+
+.doggallery-pane-description,
+.doggallery-pane-stats {
+  font-family: "Roboto", arial, sans-serif;
+  font-size: 14px;
+}
+@media (min-width: 992px) {
+  .doggallery-pane-description,
+  .doggallery-pane-stats {
+    font-size: 16px;
+  }
+}
+
+.doggallery-pane-stats {
+  font-style: italic;
+  color: #222;
+  width: 33%;
+  margin-left: 25px;
+  padding-right: 18px;
+  margin-bottom: 5px;
+}
+
+.doggallery-pane-ratings {
+  font-style: italic;
+  color: #222;
+  width: 33%;
+  margin-left: 15px;
+  padding-right: 18px;
+  margin-bottom: 5px;
+}
+
+.leftarrow {
+  position: absolute;
+  display: block;
+  top: 38%;
+  width: 50px;
+  height: 50px;
+  border: 3px ridge #FFF;
+  border-radius: 50%;
+  margin-left: 40px;
+}
+
+.leftarrow:after {
+  content: '';
+  display: inline-block;
+  margin-top: 14px;
+  margin-left: 19px;
+  width:  20px;
+  height: 20px;
+  border-top: 3px ridge #FFF;
+  border-right: 3px ridge #FFF;
+  -moz-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+.rightarrow {
+  position: absolute;
+  display: block;
+  top: 38%;
+  width: 50px;
+  height: 50px;
+  right: 40px;
+  border: 3px ridge #FFF;
+  border-radius: 50%;
+}
+
+.rightarrow:after {
+  content: '';
+  display: inline-block;
+  margin-top: 14px;
+  margin-left: 7px;
+  width:  20px;
+  height: 20px;
+  border-top: 3px ridge #FFF;
+  border-right: 3px ridge #FFF;
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.doggallery-arrow {
+  position: absolute;
+  top: 50%;
+  display: block;
+  color: #111;
+  cursor: pointer;
+  opacity: 0.75;
+  transform: translateY(-50%);
+  transition: opacity 0.15s cubic-bezier(0.4, 0, 1, 1);
+}
+
+.doggallery-arrow:focus {
+  outline: 0;
+}
+
+.doggallery-arrow:hover {
+  opacity: 0.5;
+}
+
+.doggallery-arrow--left {
+  left: 32px;
+}
+
+.doggallery-arrow--right {
+  right: 32px;
+}
+
+.doggallery-indicator-container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.doggallery-indicator-flexbox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.doggallery-indicator-list {
+  display: inline-block;
+  position: relative;
+  overflow-X: auto;
+  overflow-Y: auto;
+  height: 95px;
+  width: 800px;
+
+  flex-direction: row;
+  justify-content: center;
+  background-color: black;
+}
+
+.doggallery-indicator-list li:nth-of-type(n + 1) {
+  margin-left: 0px;
+  margin-bottom: -2px;
+}
+
+.doggallery-indicator {
+  display: block;
+  cursor: pointer;
+  opacity: 0.4;
+}
+
+.doggallery-indicator-image {
+  padding-left: 5px;
+  padding-top: 5px;
+  width: 60px;
+  height: 38px;
+}
+
+.doggallery-indicator:hover {
+  opacity: 1.0;
+}
+
+.doggallery-indicator--active, .doggallery-indicator-active:hover {
+  opacity: 1.0;
+}
+
+.wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 800px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#pane {
+  position: absolute;
+  width: 800px;
+  height: 500px;
+  /*-webkit-transition: -webkit-transform 1.25s;
+  transition: transform 1250ms;*/
+  -webkit-animation: pane 500ms forwards;
+  -webkit-animation-delay: 120ms;
+  animation: pane 500ms forwards;
+  animation-delay: 120ms; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#prevpane {
+  position: absolute;
+  width: 800px;
+  height: 500px;
+  /*-webkit-transition: -webkit-transform 1.25s;
+  transition: transform 1250ms;*/
+    -webkit-animation: pane 350ms reverse;
+  -webkit-animation-delay: 0.0s;
+  animation: pane 350ms reverse;
+  animation-delay: 0.0s; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@-webkit-keyframes pane {
+    100% { right: 0; }
+}
+
+@keyframes pane {
+    100% { right: 0; }
+}

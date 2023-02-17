@@ -1,0 +1,37 @@
+[
+    {
+      "id": 6,
+      "value": 5,
+      "label": "Very High",
+      "created_at": "2021-05-22T05:47:20.055Z",
+      "updated_at": "2021-05-22T05:47:20.055Z"
+    },
+    {
+      "id": 7,
+      "value": 4,
+      "label": "High",
+      "created_at": "2021-05-22T05:47:20.059Z",
+      "updated_at": "2021-05-22T05:47:20.059Z"
+    },
+    {
+      "id": 8,
+      "value": 3,
+      "label": "Average",
+      "created_at": "2021-05-22T05:47:20.062Z",
+      "updated_at": "2021-05-22T05:47:20.062Z"
+    },
+    {
+      "id": 9,
+      "value": 2,
+      "label": "Below Average",
+      "created_at": "2021-05-22T05:47:20.065Z",
+      "updated_at": "2021-05-22T05:47:20.065Z"
+    },
+    {
+      "id": 10,
+      "value": 1,
+      "label": "Low",
+      "created_at": "2021-05-22T05:47:20.069Z",
+      "updated_at": "2021-05-22T05:47:20.069Z"
+    }
+  ]

@@ -1,0 +1,42 @@
+[
+    {
+      "id": 6,
+      "value": 5,
+      "label": "Very Large",
+      "description": "Very large dogs are ones in excess of 80 lbs.",
+      "created_at": "2021-05-22T05:47:20.039Z",
+      "updated_at": "2021-05-22T05:47:20.039Z"
+    },
+    {
+      "id": 7,
+      "value": 4,
+      "label": "Large",
+      "description": "Large dogs fall within a range of 60-80 lbs.",
+      "created_at": "2021-05-22T05:47:20.042Z",
+      "updated_at": "2021-05-22T05:47:20.042Z"
+    },
+    {
+      "id": 8,
+      "value": 3,
+      "label": "Medium",
+      "description": "Most dogs fall within this range: 25-60 lbs.",
+      "created_at": "2021-05-22T05:47:20.045Z",
+      "updated_at": "2021-05-22T05:47:20.045Z"
+    },
+    {
+      "id": 9,
+      "value": 2,
+      "label": "Small",
+      "description": "Smaller to Medium size dogs fall within 15-25 lbs.",
+      "created_at": "2021-05-22T05:47:20.048Z",
+      "updated_at": "2021-05-22T05:47:20.048Z"
+    },
+    {
+      "id": 10,
+      "value": 1,
+      "label": "Very Small",
+      "description": "Very small dogs are ones weighing 5-15 lbs.",
+      "created_at": "2021-05-22T05:47:20.051Z",
+      "updated_at": "2021-05-22T05:47:20.051Z"
+    }
+  ]

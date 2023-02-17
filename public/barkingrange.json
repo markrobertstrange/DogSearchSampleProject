@@ -1,0 +1,37 @@
+[
+    {
+      "id": 6,
+      "value": 5,
+      "label": "Almost No Barking",
+      "created_at": "2021-05-22T05:47:20.105Z",
+      "updated_at": "2021-05-22T05:47:20.105Z"
+    },
+    {
+      "id": 7,
+      "value": 4,
+      "label": "Very Low Barking",
+      "created_at": "2021-05-22T05:47:20.108Z",
+      "updated_at": "2021-05-22T05:47:20.108Z"
+    },
+    {
+      "id": 8,
+      "value": 3,
+      "label": "Average Barking",
+      "created_at": "2021-05-22T05:47:20.112Z",
+      "updated_at": "2021-05-22T05:47:20.112Z"
+    },
+    {
+      "id": 9,
+      "value": 2,
+      "label": "Above Average Barking",
+      "created_at": "2021-05-22T05:47:20.115Z",
+      "updated_at": "2021-05-22T05:47:20.115Z"
+    },
+    {
+      "id": 10,
+      "value": 1,
+      "label": "Frequent Barking",
+      "created_at": "2021-05-22T05:47:20.119Z",
+      "updated_at": "2021-05-22T05:47:20.119Z"
+    }
+  ]

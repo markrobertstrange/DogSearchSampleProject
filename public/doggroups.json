@@ -1,0 +1,66 @@
+[
+  {
+    "id": 9,
+    "value": 1,
+    "label": "Companion Dogs",
+    "description": "Dogs in the Companion Group tend to be small in stature but big on brains and affection. They make perfect lap dogs.",
+    "created_at": "2021-05-22T05:47:20.013Z",
+    "updated_at": "2021-05-22T05:47:20.013Z"
+  },
+  {
+    "id": 10,
+    "value": 2,
+    "label": "Hound Dogs",
+    "description": "Originally bred for hunting, dogs in the Hound Group have a powerful sense of smell that also makes them ideal for law enforcement applications. They are affectionate and strong-willed.",
+    "created_at": "2021-05-22T05:47:20.016Z",
+    "updated_at": "2021-05-22T05:47:20.016Z"
+  },
+  {
+    "id": 11,
+    "value": 3,
+    "label": "Terrier Dogs",
+    "description": "Terriers were initially bred to kill vermin (which they remain very good at), but they have become beloved watchdogs and pets.",
+    "created_at": "2021-05-22T05:47:20.019Z",
+    "updated_at": "2021-05-22T05:47:20.019Z"
+  },
+  {
+    "id": 12,
+    "value": 4,
+    "label": "Working Dogs",
+    "description": "Working Group dogs were initially bred to perform practical duties, including acting as watchdogs and pulling carts and sleds. They are intelligent and loyal.",
+    "created_at": "2021-05-22T05:47:20.022Z",
+    "updated_at": "2021-05-22T05:47:20.022Z"
+  },
+  {
+    "id": 13,
+    "value": 5,
+    "label": "Sporting Dogs",
+    "description": "Originally bred to assist hunters in retrieving game, the Sporting Group’s high-energy dogs retain a love for the outdoors.",
+    "created_at": "2021-05-22T05:47:20.026Z",
+    "updated_at": "2021-05-22T05:47:20.026Z"
+  },
+  {
+    "id": 14,
+    "value": 6,
+    "label": "Herding Dogs",
+    "description": "Originally bred to herd livestock, dogs in the Herding Group are smart and energetic, and they retain the innate ability to corral other animals.",
+    "created_at": "2021-05-22T05:47:20.029Z",
+    "updated_at": "2021-05-22T05:47:20.029Z"
+  },
+  {
+    "id": 15,
+    "value": 7,
+    "label": "Mixed Breed Dogs",
+    "description": "A mixed breed dog is the offspring of 2 or more different dog breeds where neither the mother nor the father is a registered purebreed dog.",
+    "created_at": "2021-05-22T05:47:20.032Z",
+    "updated_at": "2021-05-22T05:47:20.032Z"
+  },
+  {
+    "id": 16,
+    "value": 8,
+    "label": "Hybrid Dogs",
+    "description": "A hybrid dog is the offspring of 2 purebreed dogs. That means if a dog that has a purebreed for one parent, but a mixed breed for the other parent, it is not a hybrid dog, it is simply a combination of breeds, or a Mixed Breed dog. Hybrid dogs are also known as Designer Dogs.",
+    "created_at": "2021-05-22T05:47:20.035Z",
+    "updated_at": "2021-05-22T05:47:20.035Z"
+  }
+]

@@ -1,0 +1,37 @@
+[
+    {
+      "id": 6,
+      "value": 5,
+      "label": "Excellent Temperment",
+      "created_at": "2021-05-22T05:47:20.072Z",
+      "updated_at": "2021-05-22T05:47:20.072Z"
+    },
+    {
+      "id": 7,
+      "value": 4,
+      "label": "Very Good Temperment",
+      "created_at": "2021-05-22T05:47:20.075Z",
+      "updated_at": "2021-05-22T05:47:20.075Z"
+    },
+    {
+      "id": 8,
+      "value": 3,
+      "label": "Generally Good Temperment",
+      "created_at": "2021-05-22T05:47:20.078Z",
+      "updated_at": "2021-05-22T05:47:20.078Z"
+    },
+    {
+      "id": 9,
+      "value": 2,
+      "label": "Guarded Temperment",
+      "created_at": "2021-05-22T05:47:20.082Z",
+      "updated_at": "2021-05-22T05:47:20.082Z"
+    },
+    {
+      "id": 10,
+      "value": 1,
+      "label": "Not Suitable/Applicable",
+      "created_at": "2021-05-22T05:47:20.085Z",
+      "updated_at": "2021-05-22T05:47:20.085Z"
+    }
+  ]
